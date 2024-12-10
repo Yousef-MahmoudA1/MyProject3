@@ -1,0 +1,38 @@
+body{
+    background-color: #1e202b;
+}
+p{
+    margin-bottom:0 ;
+}
+.navv{
+    background-color: #1e202b !important;
+}
+.hero{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.bot{
+    right: 13.5%;
+    padding: 0 40px; 
+    top: 22%;
+    background-color: rgba(0, 183, 255, 0.952);
+    color: white;
+}
+.about-today{
+    color: white;
+    width: 33.33333333%;
+    background-color: #323544;
+}
+.ca{
+    color: white;
+    background-color: #262936;
+}
+#temp_c{
+    font-size: 80px; 
+}
+.about-todayy{
+    background-color: #262936;
+    color: white;
+}

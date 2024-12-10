@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather</title>
+</head>
+<link rel="stylesheet" href="./css/all.min.css">
+<link rel="stylesheet" href="./css//bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<body>
+  <header class="m-auto">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-5 navv d-flex">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./img/logo.png" alt="">
+          Weather
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-5">
+            <a class="nav-link active ms-4 text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link ms-4 text-white" href="#">News</a>
+            <a class="nav-link ms-4 text-white" href="#">Live cameras</a>
+            <a class="nav-link ms-4 text-white" href="#">Phots</a>
+            <a class="nav-link ms-4 text-white" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="hero">
+      <div class="d-flex w-75 m-auto py-5">
+        <input class="form-control me-2 rounded-5 position-relative" type="search" placeholder="Find Your Locaition..."
+          aria-label="searchInput" id="city">
+        <button class="rounded-5 position-absolute bot" type="submit" id="searchButton">Find</button>
+      </div>
+    </div>
+    <div class="row g-0 justify-content-center ">
+      <div class="col-md-3 about-today">
+        <div class="card-header d-flex justify-content-between ca pe-3 ps-3 py-1">
+          <h6 class="m-auto" id="localtime"></h6>
+        </div>
+          <div class="card-body pe-3 ps-3 mt-4 pb-2">
+            <h6 class="card-subtitle mb-2 text-white" id="region"></h6>
+            <h1 class="card-text" id="temp_c"></h1>
+            <img id="icon" src="" alt="">
+            <p class="fs-6 text-primary" id="stuts"></p>
+            <div class="my-3">
+              <span><img src="./img/icon-umberella.png" alt="">20%</span>
+              <span><img src="./img/icon-wind.png" alt="">18km/h</span>
+              <span><img src="./img/icon-compass.png" alt="">East</span>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 about-todayy">
+        <div class="card-header d-flex justify-content-between pe-3 ps-3 py-1">
+          <h6 class="m-auto" id="time">2024-12-10</h6>
+        </div>
+          <div class="card-body pe-3 ps-3 mt-4 pb-2">
+            <figure class="m-auto text-center">
+            <img id="icon2" src="" alt="">
+          </figure>
+            <h1 class="card-text text-center fs-5 mt-3" id="temp_c2"></h1>
+            <p class="fs-6 text-primary text-center mt-3" id="stutss"></p>
+          </div>
+      </div>
+      <div class="col-md-3 about-today">
+        <div class="card-header d-flex justify-content-between ca pe-3 ps-3 py-1">
+          <h6 class="m-auto" id="time2"></h6>
+        </div>
+          <div class="card-body pe-3 ps-3 mt-4 pb-2">
+            <figure class="m-auto text-center">
+            <img id="icon3" src="" alt="">
+          </figure>
+            <h1 class="card-text text-center fs-5 mt-3" id="temp_c3"></h1>
+            <p class="fs-6 text-primary text-center mt-3" id="stutsss"></p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
